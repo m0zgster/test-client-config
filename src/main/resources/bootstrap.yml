@@ -1,0 +1,9 @@
+---
+spring:
+  application:
+    name: config-client
+  cloud:
+    config:
+      uri: https://skullbox-config.herokuapp.com
+server:
+  port: 8002
